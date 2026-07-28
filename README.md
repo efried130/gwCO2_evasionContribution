@@ -8,6 +8,9 @@ PHREEQC calculation, model, prediction, evasion contribution analysis, and figur
 
 | Script | Description |
 |---|---|
+| `WQP_gwCO2.R` | Call data from WQP using dataRetrieval, clean outliers
+| `phreeqcInput4.txt` | The specifcations and input for PHREEQC model
+| `phreeqc_gwCO2.R` | The PHREEQC model call
 | `data_prep.py` | Assemble WQP/PHREEQC + ERA5/GLDAS/HydroATLAS training table, clean outliers
 | `model.py` | Train XGBoost model + single-feature ablation | Table S2 |
 | `predict.py` | Gridded 0.1-deg monthly CO2(aq) prediction with conformal uncertainty
