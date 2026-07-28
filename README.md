@@ -17,8 +17,8 @@ PHREEQC calculation, model, prediction, evasion contribution analysis, and figur
 | `gw_flux.py` | Groundwater CO2 flux per HUC2 (CO2 x runoff x area) with uncertainty
 | `contribution_saccardi.py` | Aggregate Saccardi et al. (2024) reach fluxes to HUC2; contribution % |
 | `contribution_liu.py` | Liu et al. (2022) ephemeral + ice corrections; contribution % vs all three efflux datasets |
-| `figures_main.py` | Figure 1 (sampling map + aridity boxplots) and Figure S1 panels |
-| `figures_si.py` | Figure 3 (HUC2 contribution choropleth), Fig S4 barplot, Fig S2b runoff map |
+| `figures_main.py` | Main manuscript figures |
+| `figures_si.py` | SI figure generation |
 
 
 ## Paths
