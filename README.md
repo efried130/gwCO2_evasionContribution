@@ -8,7 +8,7 @@ PHREEQC calculation, model, prediction, evasion contribution analysis, and figur
 
 | Script | Description |
 |---|---|
-| `WQP_gwCO2.R` | Call data from WQP using dataRetrieval, clean outliers
+| `dataRetrieval_GW_co2_o2_updated2024.R` | Call data from WQP using dataRetrieval
 | `phreeqcInput4.txt` | The specifcations and input for PHREEQC model
 | `phreeqc_gwCO2.R` | The PHREEQC model call
 | `data_prep.py` | Assemble WQP/PHREEQC + ERA5/GLDAS/HydroATLAS training table, clean outliers
